@@ -1,4 +1,5 @@
 const readlineSync = require('readline-sync')
+console.clear()
 console.log( "Welcome to Batman: Arkham Asylum!" );
 console.log( "What do you want to do?" );
 let option = readlineSync.question( "Options: look around, hit a prisoner, run away" );
